@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	int week;
+	int day;
+	
+	for (week=1; week<=3; week++){
+		cout <<"Week : "<<week<<endl;
+		for (day=1; day<=7; day++){
+			cout<<"Day : "<<day<<endl;
+		}
+		cout<<endl;
+	}
+	return 0;
+//Created By: Muhammad Abdullah 0119
+}
