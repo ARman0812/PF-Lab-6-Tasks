@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	int row=1;
+	while (row<=5){
+		int colum=1;
+		while (colum <= row ){
+			cout<<colum;
+			colum++;
+		}
+	cout<<endl;
+	row ++;
+	}
+//Created By: Muhammad Abdullah 0119
+}
