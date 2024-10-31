@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	int row;
+	int colum;
+	
+	for (row=1; row<=5; row++){
+		for (colum=1; colum<=row; colum++){
+		cout<<colum;	
+		}
+		cout<<endl;
+	}
+return 0;	
+//Created By: Muhammad Abdullah 0119
+}
