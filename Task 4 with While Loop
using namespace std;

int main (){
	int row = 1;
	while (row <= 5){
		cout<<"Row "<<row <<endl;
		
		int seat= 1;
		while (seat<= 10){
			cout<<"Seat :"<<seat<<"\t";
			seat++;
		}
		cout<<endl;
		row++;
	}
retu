@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	int row = 1;
+	while (row <= 3){
+		cout<<"Week "<<row <<endl;
+		
+		int day= 1;
+		while (day<= 7){
+			cout<<"Day :"<<day<<endl;
+			day++;
+		}
+		cout<<endl;
+		row++;
+	}
+return 0;	
+//Created By: Muhammad Abdullah 0119
+}
