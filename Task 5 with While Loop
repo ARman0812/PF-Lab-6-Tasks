@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	int row = 1;
+	while (row <= 5){
+		cout<<"Row "<<row <<endl;
+		
+		int seat= 1;
+		while (seat<= 10){
+			cout<<"Seat :"<<seat<<"\t";
+			seat++;
+		}
+		cout<<endl;
+		row++;
+	}
+return 0;
+//Created By: Muhammad Abdullah 0119
+}
