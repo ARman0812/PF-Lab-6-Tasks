@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	int row;
+	int colum;
+	
+	for (row=1; row<=7; row++){
+		for (colum=1; colum<=row; colum++){
+		cout<<row;	
+		}
+		cout<<endl;
+	}
+//Created By: Muhammad Abdullah 0119
+}
